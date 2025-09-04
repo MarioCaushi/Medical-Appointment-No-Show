@@ -1,5 +1,13 @@
 # Medical Appointment No-Show Prediction
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-teal?logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green?logo=plotly&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML%20Models-f7931e?logo=scikitlearn&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 Predicting whether patients will miss their medical appointments using machine learning models. This project leverages advanced preprocessing, class imbalance handling, and multiple model architectures including MLP, XGBoost, and a hybrid MLP+XGBoost model.
 
 ---
