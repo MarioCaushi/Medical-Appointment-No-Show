@@ -68,6 +68,18 @@ The project follows a structured pipeline:
 
 ---
 
+## Results Summary
+
+The best-performing models achieved the following metrics on the test set:
+
+| Model                  | Accuracy | Precision | Recall  | F1-score |
+|-------------------------|----------|-----------|---------|----------|
+| MLP (Best)               | 0.7237   | 0.6928    | **0.8205** | **0.7469** |
+| XGBoost (No SMOTE)        | 0.6264   | 0.3168    | 0.7348  | 0.4427   |
+| XGBoost (SMOTE)           | 0.7068   | 0.3347    | 0.4577  | 0.3866   |
+
+---
+
 ## Visualizations
 
 Various visualizations such as class distributions, confusion matrices, feature importance plots, and training curves are included throughout the project to support analysis and interpretation.
@@ -82,6 +94,16 @@ Various visualizations such as class distributions, confusion matrices, feature 
 4. Run the preprocessing scripts or notebooks to prepare the data.
 5. Execute the modeling scripts/notebooks for MLP, XGBoost, and Hybrid models.
 6. Review results in the generated CSV files and visualizations.
+
+---
+
+## Future Work
+
+Possible directions for improvement include:
+- **Feature Enrichment:** Incorporate additional behavioral or clinical variables for stronger signals.  
+- **Cost-sensitive Learning:** Apply class weighting or advanced imbalance techniques beyond SMOTE.  
+- **Ensemble Models:** Combine predictions from multiple architectures for improved recall.  
+- **Deployment Pipeline:** Wrap the final model into a real-time prediction API for clinics.
 
 ---
 
